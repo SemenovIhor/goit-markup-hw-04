@@ -180,11 +180,14 @@ body {
 .header-contacts-item:hover {
     color: var(--accent-color);
     fill: var(--accent-color);
+    
+    
 
 }
 
 .header-contacts-item:focus {
     color: var(--accent-color);
+    
 }
 
 .header-contacts {
@@ -193,7 +196,14 @@ body {
 
 .contact-icon {
     margin-right: 10px;
+    fill: currentColor; 
 }
+
+.contact-icon:hover {
+    fill: var(--accent-color);
+   
+}
+
 
 .header-contacts a {
     display: flex;
@@ -285,36 +295,40 @@ body {
 
 .container.content .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
     margin: 0px;
     padding: 0px;
 
 }
 
-.content-items {
-    display: block;
-    width: 270px;
-}
 
 .content-text {
     padding: 0px;
     margin: 0px;
 }
 
+.content-items {
+   
+   
+}
+
 .content-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 270px;
     height: 120px;
-    
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    border-radius: 4px;
+
     margin-bottom: 30px;
     
     border-radius: 4px;
     background: #F5F4FA;
     
 }
+
 
 
 /* 2.3. section-Чим ми займаємося */
