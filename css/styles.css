@@ -458,32 +458,26 @@ body {
     fill: #AFB1B8;
     display: flex;
     align-items: center;
-
-}
-
-.customers-icon:hover,
-.customers-icon:focus {
-    fill: var(--accent-color);
-}
-
-.customers-items {
     width: 170px;
     height: 92px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+        
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
 
-.customers-items:hover,
-.customers-items:focus {
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: var(--accent-color);
     cursor: pointer;
     border-color: var(--accent-color);
-    
+        
     fill: var(--accent-color);
 }
+
+        
 
 
 
@@ -569,6 +563,47 @@ body {
     margin-left: 70px;
     padding-top: 12px;
 }
+
+/* icon */
+
+.contact-team-list-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-team-footer {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    fill: var(--primary-white-color);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.contact-team-footer:hover,
+.contact-team-footer:focus {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    fill: var(--primary-white-color);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 4. main-portfolio */
 
