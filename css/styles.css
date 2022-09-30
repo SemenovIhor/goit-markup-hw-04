@@ -308,10 +308,7 @@ body {
     margin: 0px;
 }
 
-.content-items {
-   
-   
-}
+
 
 .content-icon {
     display: flex;
@@ -425,26 +422,24 @@ body {
 }
 
 .contact-team {
-    display: block;
-    margin: 12px;
-}
-
-.contact-team-items {
     width: 44px;
     height: 44px;
-    fill:#AFB1B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    fill: #AFB1B8;
 }
 
-.contact-team-items:hover,
-.contact-team-items:focus {
-    cursor: pointer;
+.contact-team:hover,
+.contact-team:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
     fill: var(--primary-white-color);
+
 }
 
-
-
+/* замовники */
 
 .section.customers {
     padding-top: 94px;
@@ -459,17 +454,25 @@ body {
 }
 
 .customers-icon {
-    display: block;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 32px;
-    margin-right: 32px;
+
+    fill: #AFB1B8;
+    display: flex;
+    align-items: center;
+
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: var(--accent-color);
 }
 
 .customers-items {
     width: 170px;
     height: 92px;
-    fill: #AFB1B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
@@ -562,39 +565,10 @@ body {
     color: #FFFFFF;
 }
 
-
-
-
-
-.contact-team-items.footer-icon {
-
-    fill:#FFFFFF;;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.contact-team-items:hover,
-.contact-team-items:focus {
-    cursor: pointer;
-    background-color: var(--accent-color);
-    border-radius: 50%;
-    fill: var(--primary-white-color);
-}
-
-
-
 .contact-footer {
     margin-left: 70px;
     padding-top: 12px;
 }
-
-
-
-
-
-
-
-
 
 /* 4. main-portfolio */
 
